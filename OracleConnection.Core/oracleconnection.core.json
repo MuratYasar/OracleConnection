@@ -1,0 +1,17 @@
+{
+  "ConnectionConfiguration": {
+
+    "ConnectionA.Development":  "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //A Development
+    "ConnectionA.Test":         "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //A Test
+    "ConnectionA.Production":   "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //A Production
+
+    "ConnectionB.Development":  "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //B Development
+    "ConnectionB.Test":         "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //B Test
+    "ConnectionB.Production":   "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //B Production
+
+    "ConnectionC.Development":  "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //C Development
+    "ConnectionC.Test":         "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;", //C Test
+    "ConnectionC.Production":   "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.45)(PORT=1521))(CONNECT_DATA=(SERVER = DEDICATED)(SERVICE_NAME=TEST2023)));User Id=dbusername;Password=dbpassword;"  //C Production
+
+  }
+}
